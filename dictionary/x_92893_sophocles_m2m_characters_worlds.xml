@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sophocles M2m Characters Worlds" max_length="40" name="x_92893_sophocles_m2m_characters_worlds" type="collection">
+        <element label="Character" max_length="32" name="character" reference="x_92893_sophocles_character" type="reference"/>
+        <element label="Worlds" max_length="32" name="worlds" reference="x_92893_sophocles_worlds" type="reference"/>
+        <index name="index">
+            <element name="character"/>
+        </index>
+        <index name="index2">
+            <element name="worlds"/>
+        </index>
+    </element>
+</database>

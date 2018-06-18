@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Universe" language="en" table="x_92893_sophocles_universe">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Universe</label>
+            <language>en</language>
+            <name>x_92893_sophocles_universe</name>
+            <plural>Universes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-16 01:57:48</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>fe1c5b94db321300dfa77fcfbf9619a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Universe</sys_name>
+            <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
+            <sys_update_name>sys_documentation_x_92893_sophocles_universe__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-16 01:57:48</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

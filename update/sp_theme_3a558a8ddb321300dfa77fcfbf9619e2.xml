@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_theme">
+    <sp_theme action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <footer/>
+        <footer_fixed>true</footer_fixed>
+        <header/>
+        <name>Sophocles</name>
+        <navbar_fixed>true</navbar_fixed>
+        <sys_class_name>sp_theme</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-18 03:34:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3a558a8ddb321300dfa77fcfbf9619e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sophocles</sys_name>
+        <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
+        <sys_update_name>sp_theme_3a558a8ddb321300dfa77fcfbf9619e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-18 03:34:22</sys_updated_on>
+    </sp_theme>
+</record_update>

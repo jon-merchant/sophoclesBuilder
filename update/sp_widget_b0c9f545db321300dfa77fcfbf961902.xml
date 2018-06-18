@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <client_script><![CDATA[function($scope,$location) {
+  /* widget controller */
+  var c = this;
+	
+	var ww = $(window).width();
+	var hh = $(window).height();
+	console.log(ww,hh);
+	
+	$(window).resize(function() {
+		var ww = $(window).width();
+		var hh = $(window).height();
+		console.log(ww,hh);
+	})
+	
+	$scope.goTo = function(loc) {
+		if (loc) {
+			url = '?id='+loc;
+		}
+		$location.url(url);
+	}
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link/>
+        <name>Landing Choice</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-18 02:49:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>b0c9f545db321300dfa77fcfbf961902</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Landing Choice</sys_name>
+        <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
+        <sys_update_name>sp_widget_b0c9f545db321300dfa77fcfbf961902</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-18 16:44:12</sys_updated_on>
+        <template><![CDATA[<div>
+<!-- your widget template -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-3 col-mg-3 col-sm-3">
+        
+      </div>
+      <div class="col-lg-6 col-mg-6 col-sm-6">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+              <h1 class="text-uppercase">
+                What would you like to build today?
+              </h1>
+            </div>
+          </div>
+          <div class="row padding-top-50">
+            <div class="col-lg-4 col-mg-4 col-sm-4 text-center">
+              <div ng-click="goTo('storyBuilding')">
+                <img src="story.png" />
+                <div>
+                  Story Building
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-mg-4 col-sm-4 text-center">
+              <div ng-click="goTo('characterBuilding')">
+                <img src="character.png" />
+                <div>
+                  Character Building
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-mg-4 col-sm-4 text-center">
+              <div ng-click="goTo('worldBuilding')">
+                <img src="universe.png" />
+                <div>
+                  World Building
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row padding-top-50">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+              <div class="small text-muted text-uppercase text-center">
+                Or you can <a href="?id=builderDashboard">[skip]</a> and goto the dashboard.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-mg-3 col-sm-3">
+        
+      </div>
+    </div>
+  </div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

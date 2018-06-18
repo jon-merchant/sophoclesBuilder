@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sophocles M2m Chapters Stories" max_length="40" name="x_92893_sophocles_m2m_chapters_stories" type="collection">
+        <element label="Chapters" max_length="32" name="chapters" reference="x_92893_sophocles_chapters" type="reference"/>
+        <element label="Story" max_length="32" name="story" reference="x_92893_sophocles_story" type="reference"/>
+        <index name="index">
+            <element name="chapters"/>
+        </index>
+        <index name="index2">
+            <element name="story"/>
+        </index>
+    </element>
+</database>

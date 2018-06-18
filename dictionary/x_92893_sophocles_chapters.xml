@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_92893_sophocles_story" label="Chapters" max_length="40" name="x_92893_sophocles_chapters" type="collection">
+        <element label="Chapter Number" max_length="40" name="chapter_number" type="integer"/>
+        <element label="Story" max_length="32" name="story" reference="x_92893_sophocles_story" type="reference"/>
+        <element label="Text" max_length="65536" name="text" type="html"/>
+        <index name="index">
+            <element name="story"/>
+        </index>
+    </element>
+</database>

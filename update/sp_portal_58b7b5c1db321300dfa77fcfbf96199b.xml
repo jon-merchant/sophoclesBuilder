@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables>$brand-primary: #428bca;
+$body-bg: #1b3959;
+$state-success-text: #5cb85c;
+$sp-homepage-bg: #fff;
+$sp-navbar-divider-color: #1b3959;
+$text-color: #ffffff;
+$sp-logo-margin-y: .5rem;
+$navbar-inverse-link-hover-color: #84bcff;
+$panel-bg: #fff;
+$brand-success: #5cb85c;
+$navbar-inverse-bg: #2f6dbd;
+$brand-warning: #f0ad4e;
+$brand-danger: #d9534f;
+$sp-tagline-color: #717171;
+$navbar-inverse-link-color: #ffffff;
+$brand-info: #5bc0de;
+$link-color: #428bca;
+$sp-logo-margin-x: 2px;
+$btn-default-bg: #fff;
+$text-muted: #979797;
+</css_variables>
+        <default>false</default>
+        <homepage/>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-18 02:35:17</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>58b7b5c1db321300dfa77fcfbf96199b</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Sophocles</sys_name>
+        <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
+        <sys_update_name>sp_portal_58b7b5c1db321300dfa77fcfbf96199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-18 03:34:28</sys_updated_on>
+        <theme display_value="Sophocles">3a558a8ddb321300dfa77fcfbf9619e2</theme>
+        <title>Sophocles</title>
+        <url_suffix>sophocles</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=58b7b5c1db321300dfa77fcfbf96199b"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#4788c7</average_image_color>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>logo</file_name>
+        <image_height>80</image_height>
+        <image_width>80</image_width>
+        <size_bytes>2465</size_bytes>
+        <size_compressed>2488</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-18 03:28:07</sys_created_on>
+        <sys_id>ddf3c64ddb321300dfa77fcfbf961922</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-18 03:28:07</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>58b7b5c1db321300dfa77fcfbf96199b</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="logo" sys_id="ddf3c64ddb321300dfa77fcfbf961922">ddf3c64ddb321300dfa77fcfbf961922</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-18 03:28:07</sys_created_on>
+        <sys_id>d5f3c64ddb321300dfa77fcfbf961923</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>3304</length>
+        <position>1</position>
+        <sys_attachment display_value="logo" sys_id="ddf3c64ddb321300dfa77fcfbf961922">ddf3c64ddb321300dfa77fcfbf961922</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-18 03:28:07</sys_created_on>
+        <sys_id>59f3c64ddb321300dfa77fcfbf961923</sys_id>
+    </sys_attachment_doc>
+</record_update>

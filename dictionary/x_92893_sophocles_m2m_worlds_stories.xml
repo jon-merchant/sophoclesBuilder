@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sophocles M2m Worlds Stories" max_length="40" name="x_92893_sophocles_m2m_worlds_stories" type="collection">
+        <element label="Story" max_length="32" name="story" reference="x_92893_sophocles_story" type="reference"/>
+        <element label="Worlds" max_length="32" name="worlds" reference="x_92893_sophocles_worlds" type="reference"/>
+        <index name="index">
+            <element name="worlds"/>
+        </index>
+        <index name="index2">
+            <element name="story"/>
+        </index>
+    </element>
+</database>

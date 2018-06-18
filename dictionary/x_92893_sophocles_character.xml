@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_92893_sophocles_builder" label="Character" max_length="40" name="x_92893_sophocles_character" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Appearance" max_length="5000" name="appearance" type="html"/>
+        <element choice="1" label="Archetype" max_length="40" name="archetype" type="choice">
+            <choice>
+                <element label="Ally" value="Ally"/>
+                <element label="Guardian" value="Guardian"/>
+                <element label="Herald" value="Herald"/>
+                <element label="Hero" value="Hero"/>
+                <element label="Mentor" value="Mentor"/>
+                <element label="Shapeshifter" value="Shapeshifter"/>
+                <element label="Trickster" value="Trickster"/>
+                <element label="Villain" value="Villain"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="first_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="Personality" max_length="5000" name="personality" type="html"/>
+    </element>
+</database>

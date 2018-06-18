@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <encryption_context/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_92893_sophocles.worlds_user</name>
+        <suffix>worlds_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-16 02:32:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>da04a7d8db321300dfa77fcfbf96197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_92893_sophocles.worlds_user</sys_name>
+        <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
+        <sys_update_name>sys_user_role_da04a7d8db321300dfa77fcfbf96197c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-16 02:32:27</sys_updated_on>
+    </sys_user_role>
+</record_update>

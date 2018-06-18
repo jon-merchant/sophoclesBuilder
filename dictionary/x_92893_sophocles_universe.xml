@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_92893_sophocles_builder" label="Universe" max_length="40" name="x_92893_sophocles_universe" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="title" type="string"/>
+    </element>
+</database>

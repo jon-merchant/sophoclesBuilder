@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="worlds" label="Worlds" language="en" table="x_92893_sophocles_m2m_worlds_universes">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>worlds</element>
+            <help/>
+            <hint/>
+            <label>Worlds</label>
+            <language>en</language>
+            <name>x_92893_sophocles_m2m_worlds_universes</name>
+            <plural>Worlds</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-16 02:33:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8134271cdb321300dfa77fcfbf961929</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Worlds</sys_name>
+            <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
+            <sys_update_name>sys_documentation_x_92893_sophocles_m2m_worlds_universes_worlds_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-16 02:33:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

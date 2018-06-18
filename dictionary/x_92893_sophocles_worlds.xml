@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_92893_sophocles_universe" label="Worlds" max_length="40" name="x_92893_sophocles_worlds" type="collection"/>
+</database>
