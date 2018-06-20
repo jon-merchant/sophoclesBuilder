@@ -11,7 +11,7 @@
         <roles/>
         <short_description/>
         <size>md</size>
-        <sp_column display_value="2">a20405dddbf61300dfa77fcfbf961923</sp_column>
+        <sp_column display_value="1">a20405dddbf61300dfa77fcfbf961923</sp_column>
         <sp_widget display_value="storyBuilding">b722819ddbf61300dfa77fcfbf9619e6</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>

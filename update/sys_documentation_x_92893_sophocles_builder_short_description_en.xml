@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="title" label="Title" language="en" table="x_92893_sophocles_story">
+    <sys_documentation element="short_description" label="Short Description" language="en" table="x_92893_sophocles_builder">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>title</element>
+            <element>short_description</element>
             <help/>
             <hint/>
-            <label>Title</label>
+            <label>Short Description</label>
             <language>en</language>
-            <name>x_92893_sophocles_story</name>
-            <plural>Titles</plural>
+            <name>x_92893_sophocles_builder</name>
+            <plural>Short Descriptions</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-16 02:22:53</sys_created_on>
+            <sys_created_on>2018-06-20 14:11:02</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
-            <sys_id>1ad16b98db321300dfa77fcfbf961977</sys_id>
+            <sys_id>2e4a6a35dbbe1300dfa77fcfbf961905</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Title</sys_name>
+            <sys_name>Short Description</sys_name>
             <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
-            <sys_update_name>sys_documentation_x_92893_sophocles_story_title_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_92893_sophocles_builder_short_description_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-16 02:22:53</sys_updated_on>
+            <sys_updated_on>2018-06-20 14:11:02</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

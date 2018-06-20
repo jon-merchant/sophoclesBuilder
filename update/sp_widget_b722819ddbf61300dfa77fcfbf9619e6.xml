@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sp_widget">
     <sp_widget action="INSERT_OR_UPDATE">
-        <client_script><![CDATA[function($scope) {
-  /* widget controller */
-  var c = this;
+        <client_script><![CDATA[function($scope,$rootScope) {
+	/* widget controller */
+	var c = this;
+	
 	$scope.story = c.data.story;
+	
+	$scope.openNav = function() {
+		$rootScope.$broadcast('openNav',true);
+	}
+	
+	
+	console.log($scope);
 }]]></client_script>
         <controller_as>c</controller_as>
         <css/>
@@ -25,16 +33,20 @@
   /* populate the 'data' object */
   /* e.g., data.table = $sp.getValue('table'); */
 	
-	
-	data.story = $sp.getParameter('sys_id');
-	if (data.story) {
+	data.story = {};
+	data.story_sysID = $sp.getParameter('sys_id');
+	if (data.story_sysID) {
 		//get story values
+		data.story = new sophoclesDAO().getStory(data.story_sysID);
+		data.chapters = new sophoclesDAO().getChapters(data.story.sys_id);
 	} else {
 		data.story = {
-			plot:"Start writing your plot here."
+			plot:"Your Story Plot Here!",
+			short_description:"Your Story Title Here!"
 		}
 	}
 
+	
 	
 })();]]></script>
         <servicenow>false</servicenow>
@@ -43,7 +55,7 @@
         <sys_created_on>2018-06-18 17:19:25</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>b722819ddbf61300dfa77fcfbf9619e6</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>62</sys_mod_count>
         <sys_name>storyBuilding</sys_name>
         <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
         <sys_policy/>
@@ -51,10 +63,26 @@
         <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
         <sys_update_name>sp_widget_b722819ddbf61300dfa77fcfbf9619e6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-18 19:05:49</sys_updated_on>
+        <sys_updated_on>2018-06-20 21:52:31</sys_updated_on>
         <template><![CDATA[<div>
 <!-- your widget template -->
-  <summernote ng-model="story.plot"></summernote>
-</div>]]></template>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12">
+        <side-nav options="data"></side-nav>
+        <div class="main">
+        	<div ng-click="openNav()"><i class="fa fa-angle-double-right" aria-hidden="true"></i></div> 
+          	<summernote ng-model="story.plot"></summernote> 
+        </div>
+  
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+ 
+    ]]></template>
     </sp_widget>
 </record_update>

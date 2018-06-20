@@ -23,6 +23,60 @@
 }&#13;
 .padding-top-50 {&#13;
   padding-top: 50px;&#13;
+}&#13;
+&#13;
+/* SIDE NAV */&#13;
+.sidenav {&#13;
+  height: 100%;&#13;
+  width: 0;&#13;
+  position: fixed;&#13;
+  z-index: 1000;&#13;
+  top: 0;&#13;
+  left: -245px;&#13;
+  background-color: #2F6DBD;&#13;
+  overflow-x: hidden;&#13;
+  transition: 0.5s;&#13;
+  padding: 15px;&#13;
+  width: 250px;&#13;
+  box-shadow: 3px 0px 4px 0px rgba(0,0,0,0.75);&#13;
+}&#13;
+&#13;
+.sidenav a {&#13;
+  padding: 8px 8px 8px 32px;&#13;
+  text-decoration: none;&#13;
+  font-size: 25px;&#13;
+  color: #818181;&#13;
+  display: block;&#13;
+  transition: 0.3s;&#13;
+}&#13;
+&#13;
+.sidenav a:hover {&#13;
+  color: #f1f1f1;&#13;
+}&#13;
+&#13;
+.sidenav .closebtn {&#13;
+  position: absolute;&#13;
+  top: 0;&#13;
+  right: 25px;&#13;
+  font-size: 36px;&#13;
+  margin-left: 50px;&#13;
+}&#13;
+.sidenav-close {&#13;
+  position: absolute;&#13;
+  top: -5px;&#13;
+  right: 5px;&#13;
+  font-size: 22px;&#13;
+  display: inline-block;&#13;
+  padding: 4px; &#13;
+}&#13;
+#main {&#13;
+    transition: margin-left .5s;&#13;
+    padding: 16px;&#13;
+}&#13;
+&#13;
+@media screen and (max-height: 450px) {&#13;
+  .sidenav {padding-top: 15px;}&#13;
+  .sidenav a {font-size: 18px;}&#13;
 }</css>
         <name>sophocles-main</name>
         <sys_class_name>sp_css</sys_class_name>
@@ -30,7 +84,7 @@
         <sys_created_on>2018-06-18 03:34:56</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>9b750e8ddb321300dfa77fcfbf9619bb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>sophocles-main</sys_name>
         <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
         <sys_policy/>
@@ -38,6 +92,6 @@
         <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
         <sys_update_name>sp_css_9b750e8ddb321300dfa77fcfbf9619bb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-18 03:37:07</sys_updated_on>
+        <sys_updated_on>2018-06-20 04:36:28</sys_updated_on>
     </sp_css>
 </record_update>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="title" table="x_92893_sophocles_story">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="type" table="x_92893_sophocles_builder">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
@@ -12,10 +12,10 @@
 	return '';  // return the calculated value
 
 })(current);]]></calculation>
-        <choice/>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Title</column_label>
+        <column_label>Type</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -28,13 +28,13 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>title</element>
+        <element>type</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
-        <max_length>1000</max_length>
-        <name>x_92893_sophocles_story</name>
+        <max_length>40</max_length>
+        <name>x_92893_sophocles_builder</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,18 +51,18 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-16 02:22:53</sys_created_on>
+        <sys_created_on>2018-06-20 14:03:36</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>26a1e798db321300dfa77fcfbf9619a5</sys_id>
+        <sys_id>6188eeb1dbbe1300dfa77fcfbf9619b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Title</sys_name>
+        <sys_name>Type</sys_name>
         <sys_package display_value="sophocles" source="x_92893_sophocles">958a5f10db321300dfa77fcfbf961986</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="sophocles">958a5f10db321300dfa77fcfbf961986</sys_scope>
-        <sys_update_name>sys_dictionary_x_92893_sophocles_story_title</sys_update_name>
+        <sys_update_name>sys_dictionary_x_92893_sophocles_builder_type</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-16 02:22:53</sys_updated_on>
+        <sys_updated_on>2018-06-20 14:03:36</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

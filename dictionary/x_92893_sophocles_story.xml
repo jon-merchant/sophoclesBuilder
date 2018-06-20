@@ -2,6 +2,5 @@
 <database>
     <element extends="x_92893_sophocles_builder" label="Story" max_length="40" name="x_92893_sophocles_story" type="collection">
         <element label="Plot" max_length="10000" name="plot" type="html"/>
-        <element label="Title" max_length="1000" name="title" type="string"/>
     </element>
 </database>

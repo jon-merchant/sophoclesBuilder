@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-16 21:46:39</sys_created_on>
-            <sys_id>dd3c2fa0db321300dfa77fcfbf961970</sys_id>
+            <sys_created_on>2018-06-20 14:07:39</sys_created_on>
+            <sys_id>05892ef1dbbe1300dfa77fcfbf96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_92893_sophocles_chapters" sys_domain="global" view="Default view">aab5abd8db321300dfa77fcfbf96196a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-16 21:46:39</sys_updated_on>
+            <sys_updated_on>2018-06-20 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>chapter_number</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-16 21:46:39</sys_created_on>
-            <sys_id>513c2fa0db321300dfa77fcfbf961971</sys_id>
+            <sys_created_on>2018-06-20 14:07:39</sys_created_on>
+            <sys_id>85892ef1dbbe1300dfa77fcfbf96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_92893_sophocles_chapters" sys_domain="global" view="Default view">aab5abd8db321300dfa77fcfbf96196a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-16 21:46:39</sys_updated_on>
+            <sys_updated_on>2018-06-20 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>story</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-16 21:46:39</sys_created_on>
-            <sys_id>d13c2fa0db321300dfa77fcfbf961971</sys_id>
+            <sys_created_on>2018-06-20 14:07:39</sys_created_on>
+            <sys_id>09892ef1dbbe1300dfa77fcfbf96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_92893_sophocles_chapters" sys_domain="global" view="Default view">aab5abd8db321300dfa77fcfbf96196a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-16 21:46:39</sys_updated_on>
+            <sys_updated_on>2018-06-20 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,27 @@
             <element>text</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-16 21:46:39</sys_created_on>
-            <sys_id>553c2fa0db321300dfa77fcfbf961971</sys_id>
+            <sys_created_on>2018-06-20 14:07:39</sys_created_on>
+            <sys_id>89892ef1dbbe1300dfa77fcfbf96199e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_92893_sophocles_chapters" sys_domain="global" view="Default view">aab5abd8db321300dfa77fcfbf96196a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-16 21:46:39</sys_updated_on>
+            <sys_updated_on>2018-06-20 14:07:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-20 14:07:39</sys_created_on>
+            <sys_id>0d892ef1dbbe1300dfa77fcfbf96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_92893_sophocles_chapters" sys_domain="global" view="Default view">aab5abd8db321300dfa77fcfbf96196a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-20 14:07:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
